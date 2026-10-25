@@ -1,0 +1,20 @@
+# Binarios y objetos compilados
+bin/
+*.o
+
+# Logs generados al probar el programa
+*.log
+
+# Pruebas manuales de certificados: NUNCA subir claves privadas
+certs/
+*.key
+*.csr
+*.srl
+
+# Ficheros de la prueba manual de enlace simbolico
+victima.txt
+enlace.log
+
+# Ficheros temporales de editores
+*~
+*.swp
